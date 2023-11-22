@@ -1,0 +1,32 @@
+
+
+POST  http://localhost:5000/todos
+Content-Type: application/json
+
+{
+    "title": "john"
+}
+
+###
+
+GET http://localhost:5000/todos
+
+###
+
+GET http://localhost:5000/todos/6554866f09acfbf0b8022f75
+
+###
+
+PATCH   http://localhost:5000/todos/6554a95bd8cf9715a32cee60
+Content-Type: application/json
+
+{
+    "title": "john"
+}
+
+###
+DELETE http://localhost:5000/todos/65548934819f1c0a76bf3702
+
+
+###
+PUT http://localhost:5000/todos/complete/6555a50634748e7690ceaca7
