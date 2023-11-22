@@ -7,7 +7,7 @@ const router = require("./routes/todo");
 
 const cors = require('cors');
 const corsOptions ={
-  origin:process.env.ORIGIN,
+  origin:process.env.BASE_URL,
   credentials:true,            //access-control-allow-credentials:true
   optionSuccessStatus:200
 }
